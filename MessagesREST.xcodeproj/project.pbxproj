@@ -16,6 +16,8 @@
 		E4BE49ED2A3322B100A7C336 /* MessagesRESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE49EC2A3322B100A7C336 /* MessagesRESTTests.swift */; };
 		E4BE49F72A3322B100A7C336 /* MessagesRESTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE49F62A3322B100A7C336 /* MessagesRESTUITests.swift */; };
 		E4BE49F92A3322B100A7C336 /* MessagesRESTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE49F82A3322B100A7C336 /* MessagesRESTUITestsLaunchTests.swift */; };
+		E4BE4A062A3322DD00A7C336 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE4A052A3322DD00A7C336 /* Message.swift */; };
+		E4BE4A082A33259800A7C336 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE4A072A33259800A7C336 /* ApiRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E4BE49F22A3322B100A7C336 /* MessagesRESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagesRESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BE49F62A3322B100A7C336 /* MessagesRESTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesRESTUITests.swift; sourceTree = "<group>"; };
 		E4BE49F82A3322B100A7C336 /* MessagesRESTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesRESTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4BE4A052A3322DD00A7C336 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E4BE4A072A33259800A7C336 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				E4BE49DE2A3322B000A7C336 /* Assets.xcassets */,
 				E4BE49E02A3322B000A7C336 /* LaunchScreen.storyboard */,
 				E4BE49E32A3322B000A7C336 /* Info.plist */,
+				E4BE4A052A3322DD00A7C336 /* Message.swift */,
+				E4BE4A072A33259800A7C336 /* ApiRequest.swift */,
 			);
 			path = MessagesREST;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4BE49DA2A3322AF00A7C336 /* ViewController.swift in Sources */,
+				E4BE4A062A3322DD00A7C336 /* Message.swift in Sources */,
 				E4BE49D62A3322AF00A7C336 /* AppDelegate.swift in Sources */,
+				E4BE4A082A33259800A7C336 /* ApiRequest.swift in Sources */,
 				E4BE49D82A3322AF00A7C336 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
