@@ -34,7 +34,7 @@ struct APIRequest {
                     return
                 }
                 do{
-                    let messageData = try JSONDecoder.decode(Message.self , from: jsonData)
+                    let messageData = try JSONDecoder().decode(Message.self , from: jsonData)
                     completion(.success(messageData))
                 }catch{
                     completion(.failure(.decodingProblem))
